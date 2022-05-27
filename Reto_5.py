@@ -10,7 +10,7 @@ def mefaltandelacategoria(lpf, lc, c):
     return indices
 
 
-def notengopaciente(ls, lp):
+def notengopacientes(ls, lp):
     indicesCP = []
     [indicesCP.append(i) for i in ls if i not in lp]
     return indicesCP
